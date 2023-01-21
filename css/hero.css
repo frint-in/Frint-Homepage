@@ -1,0 +1,53 @@
+.hero{
+    display: flex;
+    height: 75vh;
+}
+
+.hero .heroLeft{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero .heroLeft .subTagLine p{
+    text-align: center;
+    font-weight: 100;
+    margin: 30px;
+    line-height: 1.5em;
+    font-size: 1em;
+}
+.hero .heroLeft .tagLine{
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 1.3em;
+}
+.hero .heroLeft .btns .btn{
+    margin: 20px;
+}
+
+.hero .heroRight{
+    flex: 1;
+}
+
+.hero .heroRight .heading{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hero .heroRight .container{
+    background-color: rgb(216,206,241);
+    height: 25em;
+    width: 25em;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .heroRight .container .preview{
+    width: 35em;
+    height: 20em;
+    border-radius: 4px;
+}
