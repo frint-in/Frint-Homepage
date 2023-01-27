@@ -51,3 +51,54 @@
     height: 20em;
     border-radius: 4px;
 }
+
+
+@media (max-width:800px){
+    .hero {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 65vh;
+    }
+
+    .hero .heroLeft{ 
+        margin-top: 240px;
+    }
+
+    .hero .heroLeft .tagLine{
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .hero .heroRight .container .preview{
+        width: 15em;
+        height: 10em;
+        border-radius: 4px;
+    }
+
+    .hero .heroRight .container{
+        display: none;
+    }
+
+    .hero .heroRight .heading{
+        display: none;
+    }
+
+    .hero .heroLeft .btns{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .hero .heroLeft .btns .btn{
+        margin: 10px;
+    }
+    .hero .heroLeft .subTagLine p{
+        margin-top: 0px;
+    }
+
+    .hero .heroLeft{
+        margin-top: 170px;
+    }
+  }
