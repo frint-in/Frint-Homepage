@@ -1,0 +1,41 @@
+
+  .footer {
+    background-color: var(--nav-icon);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer-copyright {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-nav {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  .footer-nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+  
+  .footer-nav-item {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer-nav-item a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  @media (max-width:960px){
+    footer{
+        margin-bottom: 70px;
+    }
+  }
+  
