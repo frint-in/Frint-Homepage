@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/services.css" />
     <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/popup.css">
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -81,13 +82,44 @@
         </ul>
       </div>
       <div class="login">
-        <button class="loginBtn">
+        <!-- <button class="">
           <a href="/comingSoon.html">Login</a>
-        </button>
+        </button> -->
 
-        <button class="registerBtn">
+        <div class="popup">
+          <div class="wrapper">
+            <button class="btn js-open-popup loginBtn" data-target="custom-popup">Login</button>
+          
+              <div class="custom-popup js-custom-popup" id="custom-popup" data-popup="custom-popup">
+                <div class="custom-popup__holder js-custom-popup-holder"><span class="custom-popup__close js-close-popup"></span>
+                  <div class="custom-popup__title">Popup Header</div>
+                  <div class="custom-popup__content">Popup Content</div>
+                  <div class="custom-popup__footer">Popup Footer</div>
+                </div>
+              </div>
+          </div>  
+        </div>
+
+        <!-- <button class="registerBtn">
           <a href="/comingSoon.html">Start for Free!</a>
-        </button>
+        </button> -->
+
+        <div class="popup">
+          <div class="wrapper">
+            <button class="btn js-open-popup registerBtn" data-target="custom-popup">Start for Free!</button>
+          
+              <div class="custom-popup js-custom-popup" id="custom-popup" data-popup="custom-popup">
+                <div class="custom-popup__holder js-custom-popup-holder"><span class="custom-popup__close js-close-popup"></span>
+                  <div class="custom-popup__title">Popup Header</div>
+                  <div class="custom-popup__content">Popup Content</div>
+                  <div class="custom-popup__footer">Popup Footer</div>
+                </div>
+              </div>
+          </div>  
+        </div>
+
+
+        
       </div>
     </div>
 
@@ -106,9 +138,20 @@
           </p>
         </h4>
         <div class="btns">
-          <button class="btn primary">
-            <a href="/comingSoon.html"> Get Started for free </a>
-          </button>
+          <div class="popup">
+            <div class="wrapper">
+              <button class="btn js-open-popup btn primary" data-target="custom-popup">Get Started for free</button>
+            
+                <div class="custom-popup js-custom-popup" id="custom-popup" data-popup="custom-popup">
+                  <div class="custom-popup__holder js-custom-popup-holder"><span class="custom-popup__close js-close-popup"></span>
+                    <div class="custom-popup__title">Popup Header</div>
+                    <div class="custom-popup__content">Popup Content</div>
+                    <div class="custom-popup__footer">Popup Footer</div>
+                  </div>
+                </div>
+            </div>  
+          </div>
+
           <button class="btn secondary">
             <ion-icon name="play-outline"></ion-icon>  <a href="/comingSoon.html"> Explore More </a> 
           </button>
@@ -226,6 +269,7 @@
 
     <script src="/script/main.js"></script>
     <script src="/script/clients.js"></script>
+    <script src="/script/popup.js"></script>
 
     <script
       type="module"
