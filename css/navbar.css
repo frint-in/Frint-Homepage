@@ -147,7 +147,7 @@ width: 70px;
 height: 70px;
 background: var(--nav-icon);
 border-radius: 50%;
-border: 6px solid #fff;
+border: 6px solid #f2f2f2;
 transition: 0.5s;
 }
 .indicator::before{
@@ -159,7 +159,7 @@ width: 20px;
 height: 20px;
 background: transparent;
 border-top-right-radius: 20px;
-box-shadow: 1px -10px 0 0 #fff;
+box-shadow: 1px -10px 0 0 #f2f2f2;
 }
 .indicator::after{
     content: '';
@@ -170,7 +170,7 @@ width: 20px;
 height: 20px;
 background: transparent;
 border-top-left-radius: 20px;
-box-shadow: -1px -10px 0 0 white;
+box-shadow: -1px -10px 0 0 #f2f2f2;
 }
 
 
