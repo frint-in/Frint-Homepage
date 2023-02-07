@@ -1,30 +1,26 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins, sans-serif';
-}
-body{
+
+.contactWrapper{
     display: flex;
     height: 100vh;
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background: linear-gradient(135deg, #c3e2f7, #dda0f6);
+    /* background: linear-gradient(135deg, #c3e2f7, #dda0f6); */
 }
-.container{
+
+.contactContainer{
     max-width: 700px;
     width: 100%;
     background: #fff;
     padding: 25px 30px;
     border-radius: 5px;
 }
-.container .title{
+.contactContainer .title{
     font-size: 25px;
     font-weight: 500;
     position: relative;
 }
-.container .title::before{
+.contactContainer .title::before{
     content: '';
     position: absolute;
     left: 0;
@@ -33,7 +29,7 @@ body{
     width: 30px;   
     background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
-.container form .user-details{
+.contactContainer form .user-details{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -49,7 +45,7 @@ form .user-details .input-box{
     margin-bottom: 5px;
 }
 .user-details .input-box  {
-  diplay: flex;
+  display: flex;
   flex-direction: column;
 }
 .user-details .input-box input{
@@ -85,18 +81,19 @@ form .button input{
 form .button input:hover{
     background: linear-gradient(-135deg, #71b7e6, #9b59b6);
 }
-@media (max-width:584px) {
-    .container{
+@media (max-width:584px)  {
+    .contactContainer{
     max-width: 100%;
 }
   form .user-details .input-box{
       margin-bottom: 15px;
       width: 100%;
   }
-    .container form .user-details{
+    .contactContainer form .user-details{
       max-height: 300;
       overflow-y: scroll;
   }
   .user-details::-webkit-scrollbar{
       width: 5px;
   }
+}

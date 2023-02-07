@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="/css/services.css" />
     <link rel="stylesheet" href="/css/footer.css" />
     <link rel="stylesheet" href="/css/popup.css">
+    <link rel="stylesheet" href="/css/contactUs.css"/>  
+    <link rel="stylesheet" href="/css/testimonials.css"/>
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -46,7 +48,7 @@
               <span class="icon">
                 <img src="/images/Navbar/graduation.png" alt="Failed to load" />
               </span>
-              <span class="text"> Internship </span>
+              <span class="text"> Testimonials </span>
             </a>
           </li>
 
@@ -71,7 +73,7 @@
             </a>
           </li>
           <li class="list">
-            <a href="#">
+            <a href="#contactUs">
               <span class="icon">
                 <ion-icon name="call-outline"></ion-icon>
               </span>
@@ -85,39 +87,50 @@
         <!-- <button class="">
           <a href="/comingSoon.html">Login</a>
         </button> -->
-
-        <div class="popup">
-          <div class="wrapper">
-            <button class="btn js-open-popup loginBtn" data-target="custom-popup">Login</button>
-          
-              <div class="custom-popup js-custom-popup" id="custom-popup" data-popup="custom-popup">
-                <div class="custom-popup__holder js-custom-popup-holder"><span class="custom-popup__close js-close-popup"></span>
-                  <div class="custom-popup__title">Popup Header</div>
-                  <div class="custom-popup__content">Popup Content</div>
-                  <div class="custom-popup__footer">Popup Footer</div>
-                </div>
-              </div>
-          </div>  
+        <div class="btns">
+          <div class="popup">
+            <div class="wrapper">
+              <button class="btn js-open-popup loginBtn" data-target="custom-popup1">Login</button>
+            
+                <div class="custom-popup js-custom-popup-login" id="custom-popup1" data-popup="custom-popup1">
+                  <div class="custom-popup__holder js-custom-popup-holder"><span class="custom-popup__close js-close-popup"></span>
+                    <!-- <img src="./images/Frint.png" id="image-popup" /> -->
+                    <!-- <div class="custom-popup__title">Popup Header</div>
+                    <button class="custom-popup__content">Popup Content</button>
+                    <div class="custom-popup__footer">Popup Footer</div> -->
+                    <div class="container-popup-btn">
+                      <a id="primary-popup" href="https://www.company.frint.in/">Login as a Company</a> 
+                      <a id="secondary-popup" href="https://www.user.frint.in/">Login as a user</a>  
+                    </div>
+                  </div>
+                </div>  
+            </div>
+          </div>
         </div>
+
+
+
 
         <!-- <button class="registerBtn">
           <a href="/comingSoon.html">Start for Free!</a>
         </button> -->
-
-        <div class="popup">
-          <div class="wrapper">
-            <button class="btn js-open-popup registerBtn" data-target="custom-popup">Start for Free!</button>
-          
-              <div class="custom-popup js-custom-popup" id="custom-popup" data-popup="custom-popup">
+        <div class="btns">
+          <div class="popup">
+            <div class="wrapper">
+              <button class="btn js-open-popup btn registerBtn" data-target="custom-popup2">Start for Free!</button>
+              <div class="custom-popup js-custom-popup-register" id="custom-popup2" data-popup="custom-popup2">
                 <div class="custom-popup__holder js-custom-popup-holder"><span class="custom-popup__close js-close-popup"></span>
-                  <div class="custom-popup__title">Popup Header</div>
-                  <div class="custom-popup__content">Popup Content</div>
-                  <div class="custom-popup__footer">Popup Footer</div>
+                  <!-- <img src="./images/Frint.png" id="image-popup" /> -->
+                  <div class="container-popup-btn">
+                    <a href="https://www.company.frint.in/auth/" id="primary-popup">Sign-up as a Company</a> 
+                    <a href="https://www.user.frint.in/" id="secondary-popup">Sign-up as a user</a>  
+                  </div>
                 </div>
               </div>
-          </div>  
+            </div>  
+          </div>
         </div>
-
+      </div>
 
         
       </div>
@@ -132,25 +145,30 @@
         </h1>
         <h4 class="subTagLine">
           <p>
-            Frint is a community-driven service that helps find you a dream
-            internship, job and <br />
-            great opportunities.
+            Frint is a community-driven service that helps 
+            you in <br />
+            finding a dream internship,job and great opportunities.
           </p>
         </h4>
         <div class="btns">
           <div class="popup">
             <div class="wrapper">
-              <button class="btn js-open-popup btn primary" data-target="custom-popup">Get Started for free</button>
+              <button class="btn js-open-popup btn primary" data-target="custom-popup3">Get Started for free</button>
             
-                <div class="custom-popup js-custom-popup" id="custom-popup" data-popup="custom-popup">
+                <div class="custom-popup js-custom-popup-primary" id="custom-popup3" data-popup="custom-popup3">
                   <div class="custom-popup__holder js-custom-popup-holder"><span class="custom-popup__close js-close-popup"></span>
-                    <div class="custom-popup__title">Popup Header</div>
-                    <div class="custom-popup__content">Popup Content</div>
-                    <div class="custom-popup__footer">Popup Footer</div>
+                    <div class="container-popup-btn">
+                      <a href="https://www.company.frint.in/" class="btn primary">Login as a Company</a> 
+                      <a href="https://www.user.frint.in/" class="btn secondary">Login as a user</a>  
+                    </div>
                   </div>
                 </div>
             </div>  
           </div>
+
+          <!-- <button class="btn primary">
+            <ion-icon name="play-outline"></ion-icon>  <a href="/comingSoon.html"> Get started for free </a> 
+          </button> -->
 
           <button class="btn secondary">
             <ion-icon name="play-outline"></ion-icon>  <a href="/comingSoon.html"> Explore More </a> 
@@ -166,16 +184,136 @@
     </div>
 
 
+<div class="testimonial">
+  <h1>Testimonial Cards</h1>
+  <div class="card-wrapper">
+    <div class="card" id="cardOne">
+      <figure>
+        <div class="card-header">
+        <img src="./images/quotes.png" alt="uppercolon">
+        </div>
+        <div class="card-main">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio officiis sapiente tempora quod dolores voluptatum ipsam facilis, suscipit doloribus beatae in eius libero repellendus eaque, laudantium atque nostrum tenetur error.</p>
+        </div>
+        <div class="card-footer">
+          <div class="card-footer--img">
+            <img src="https://e2z0jolt9y-flywheel.netdna-ssl.com/wp-content/uploads/2019/04/team.png" alt="">
+          </div>
+          <div class="card-footer--title">
+            <h4>John Doe</h4>
+            <p>Tribe Botany, Owner</p>
+          </div>
+        </div>
+      </figure>
+    </div>
+
+    <div class="card active" id="cardTwo">
+      <figure>
+        <div class="card-header">
+          <img src="./images/quotes.png" alt="uppercolon">
+        </div>
+        <div class="card-main">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio officiis sapiente tempora quod dolores voluptatum ipsam facilis, suscipit doloribus beatae in eius libero repellendus eaque, laudantium atque nostrum tenetur error.</p>
+        </div>
+        <div class="card-footer">
+          <div class="card-footer--img">
+            <img src="https://www.union.edu/sites/default/files/green/202008/jane-doe.jpg" alt="">
+          </div>
+          <div class="card-footer--title">
+            <h4>Jane Doe</h4>
+            <p>Tribe Wollongong, Franchisee</p>
+          </div>
+        </div>
+      </figure>
+    </div>
+
+    <div class="card" id="cardThree">
+      <figure>
+        <div class="card-header">
+          <img src="./images/quotes.png" alt="uppercolon">
+        </div>
+        <div class="card-main">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio officiis sapiente tempora quod dolores voluptatum ipsam facilis, suscipit doloribus beatae in eius libero repellendus eaque, laudantium atque nostrum tenetur error.</p>
+        </div>
+        <div class="card-footer">
+          <div class="card-footer--img">
+            <img src="https://mon-appli-vtc.com/wp-content/uploads/bfi_thumb/employee-01-1-npkxnpm0qicaki8i7oxmf2brijce7ybwy5vqh71r0s.jpg" alt="">
+          </div>
+          <div class="card-footer--title">
+            <h4>John Doe</h4>
+            <p>Tribe Botany, Owner</p>
+          </div>
+        </div>
+      </figure>
+    </div>
+  </div>
+  <div class="card-wrapper">
+    <div class="card" id="cardOne">
+      <figure>
+        <div class="card-header">
+        <img src="./images/quotes.png" alt="uppercolon">
+        </div>
+        <div class="card-main">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio officiis sapiente tempora quod dolores voluptatum ipsam facilis, suscipit doloribus beatae in eius libero repellendus eaque, laudantium atque nostrum tenetur error.</p>
+        </div>
+        <div class="card-footer">
+          <div class="card-footer--img">
+            <img src="https://e2z0jolt9y-flywheel.netdna-ssl.com/wp-content/uploads/2019/04/team.png" alt="">
+          </div>
+          <div class="card-footer--title">
+            <h4>John Doe</h4>
+            <p>Tribe Botany, Owner</p>
+          </div>
+        </div>
+      </figure>
+    </div>
+
+    <div class="card active" id="cardTwo">
+      <figure>
+        <div class="card-header">
+          <img src="./images/quotes.png" alt="uppercolon">
+        </div>
+        <div class="card-main">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio officiis sapiente tempora quod dolores voluptatum ipsam facilis, suscipit doloribus beatae in eius libero repellendus eaque, laudantium atque nostrum tenetur error.</p>
+        </div>
+        <div class="card-footer">
+          <div class="card-footer--img">
+            <img src="https://www.union.edu/sites/default/files/green/202008/jane-doe.jpg" alt="">
+          </div>
+          <div class="card-footer--title">
+            <h4>Jane Doe</h4>
+            <p>Tribe Wollongong, Franchisee</p>
+          </div>
+        </div>
+      </figure>
+    </div>
+
+    <div class="card" id="cardThree">
+      <figure>
+        <div class="card-header">
+          <img src="./images/quotes.png" alt="uppercolon">
+        </div>
+        <div class="card-main">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio officiis sapiente tempora quod dolores voluptatum ipsam facilis, suscipit doloribus beatae in eius libero repellendus eaque, laudantium atque nostrum tenetur error.</p>
+        </div>
+        <div class="card-footer">
+          <div class="card-footer--img">
+            <img src="https://mon-appli-vtc.com/wp-content/uploads/bfi_thumb/employee-01-1-npkxnpm0qicaki8i7oxmf2brijce7ybwy5vqh71r0s.jpg" alt="">
+          </div>
+          <div class="card-footer--title">
+            <h4>John Doe</h4>
+            <p>Tribe Botany, Owner</p>
+          </div>
+        </div>
+      </figure>
+    </div>
+  </div>
+</div>
 
 
 
     
-
-
-<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+<!-- 
 
 <div class="container partners">
   <h2 class="section-title">Our  Partners</h2>
@@ -188,9 +326,10 @@
       <div class="slide"><img src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg"></div>
       <div class="slide"><img src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg"></div>
    </section>
+</div> -->
+
+
 </div>
-
-
 
 <div class="services-section">
   <h2 class="section-title">Our Services</h2>
@@ -227,6 +366,46 @@
 </div>
 
 
+<div class="contactWrapper" id="contactUs">
+  <div class="contactContainer">
+    <div class="title">Contact Us</div>
+    <form action="#">
+      <div class="user-details">
+        <div class="input-box">
+          <span class="details">Full Name</span>
+          <input type="text" placeholder="Enter your Name" required />
+        </div>
+        <div class="input-box">
+          <span class="details">Mobile No.</span>
+          <input type="text" placeholder="Enter your Mobile No." required />
+        </div>
+        <div style="width: 100%" class="input-box">
+          <span class="details">Email Address</span>
+          <input
+            type="text"
+            placeholder="Enter your Email Address"
+            required
+          />
+        </div>
+        <div style="width: 100%" class="input-box">
+          <span class="details">Your Message</span>
+          <textarea
+            cols="100"
+            rows="5"
+            placeholder="Type your message here"
+            required
+          >
+          </textarea>
+        </div>
+      </div>
+      <div class="button">
+        <input type="submit" value="Send Message" />
+      </div>
+    </form>
+  </div>
+
+</div>
+
 <footer class="footer">
   
   <nav class="footer-nav">
@@ -242,34 +421,11 @@
 </footer>
 
 
-<script>
-  $(document).ready(function(){
-    $('.customer-logos').slick({
-        slidesToShow: 6,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 1500,
-        arrows: false,
-        dots: false,
-        pauseOnHover: false,
-        responsive: [{
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 4
-            }
-        }, {
-            breakpoint: 520,
-            settings: {
-                slidesToShow: 3
-            }
-        }]
-    });
-});
-</script>
 
     <script src="/script/main.js"></script>
     <script src="/script/clients.js"></script>
     <script src="/script/popup.js"></script>
+    <script src="/script/testimonials.js"></script>
 
     <script
       type="module"
@@ -279,5 +435,6 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    
   </body>
 </html>

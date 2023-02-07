@@ -28,13 +28,20 @@
 .nav .login button{
   width: 10em;
   height: 3em;
+  color: #fff;
   border-radius: 5px;
   border: none;
   font-weight: bold;
-  background-color: var(--main-color);
+  background-color: var(--nav-icon);
   cursor: pointer;
   margin: 5px;
 }
+
+.nav .login button:hover{
+  background-color: #00f2bd;
+  color: #212121;
+}
+
 .nav .login button a{
   text-decoration: none;
   color: black;

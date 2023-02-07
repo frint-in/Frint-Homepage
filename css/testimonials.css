@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+.testimonial{
+    background: #f2f2f2;
+    font-family: "Roboto", sans-serif;
+    
+}
+ .testimonial h1 {
+    height: 10vh;
+	 letter-spacing: -2.7px;
+     text-align: center;
+     padding-top: 30px;
+}
+ .testimonial .card-wrapper {
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 height: 45vh;
+     padding-bottom: 50px;
+}
+ .testimonial .card {
+	 display: flex;
+	 flex-direction: column;
+	 background: white;
+	 width: 100%;
+	 max-width: 460px;
+	 margin-right: 3rem;
+	 border-radius: 8px;
+	 cursor: pointer;
+	 box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+	 transition: box-shadow 300ms ease-in-out;
+}
+ .testimonial .card:hover {
+	 box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+ .testimonial .card figure {
+	 padding: 3rem 3rem;
+	 margin: 0;
+}
+ .testimonial .active {
+	 box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+	 transition: box-shadow 300ms ease-in-out;
+}
+ .testimonial .card-header {
+	 margin-bottom: 1rem;
+}
+ .testimonial .card-header img {
+	 width: 50px;
+}
+ .testimonial .card-main {
+	 margin-bottom: 2.5rem;
+}
+ .testimonial .card-main p {
+	 font-size: 1.2rem;
+}
+ .testimonial .card-footer {
+	 display: flex;
+	 justify-content: flex-start;
+	 align-items: center;
+}
+ .testimonial .card-footer--img img {
+	 display: block;
+	 width: 50px;
+	 margin-right: 1rem;
+	 border: double 4px transparent;
+	 border-radius: 80px;
+	 background-image: linear-gradient(white, white), radial-gradient(circle at top left, #9cffc8, #27b264);
+	 background-origin: border-box;
+	 background-clip: content-box, border-box;
+}
+ .testimonial .card-footer--title {
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+}
+ .testimonial .card-footer--title h4 {
+	 padding: 0px;
+	 margin: 0px;
+	 line-height: 1em;
+	 color: #27b264;
+	 font-size: 1rem;
+	 text-transform: uppercase;
+}
+ .testimonial .card-footer--title p {
+	 padding: 0px;
+	 margin: 0.2rem 0 0 0;
+	 line-height: 1em;
+	 font-size: 0.9rem;
+}
+ @media screen and (max-width: 1100px) {
+	 .testimonial .card-wrapper {
+		 display: flex;
+		 flex-direction: column;
+	}
+	 .testimonial h1 {
+		 margin-bottom: 5em;
+	}
+	 .testimonial .card, .testimonial .card--active {
+		 margin-top: 3rem;
+	}
+}
+ 
