@@ -90,4 +90,9 @@
     background-color: rebeccapurple;
     color: #fff;
   }
+
+  .primaryDiv button:hover{
+    background-color: rgba(85, 157, 230, 0.603);
+    color: #020202;
+  }
   

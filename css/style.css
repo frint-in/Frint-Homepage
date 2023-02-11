@@ -58,7 +58,7 @@ button.secondary {
 }
 
 button.secondary:hover{
-    background-color: rgb(196, 179, 179);;
+    background-color: rgba(85, 157, 230, 0.603);
 }
 
 button.secondary a{
