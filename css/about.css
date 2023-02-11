@@ -8,11 +8,13 @@
 }
 
 .about .aboutContainer{
-    padding-top: 100px;
-    padding-bottom: 100px;
-    height: 40vh;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 30vh;
     display: flex;
     width: 100%;
+    border-bottom: 0.1px solid grey;
+    border-top: 0.1px solid grey;
 }
 
 .about .aboutHeader{
@@ -22,7 +24,15 @@
     padding-bottom: 50px;
     font-size: 40px;
     border: 1px, black;
+    border-right: 0.1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
+
+.about #lastHeader{
+    border: none;
 }
 
 .about .aboutSection2{
