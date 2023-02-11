@@ -6,7 +6,7 @@
     text-align: center;
     margin: 0 auto;
     padding: 40px 0;
-    font: 300 60px 'Oswald', sans-serif;
+    font-size: 60px;
     color: dodgerblue;
     text-transform: uppercase;
     letter-spacing: 6px;
@@ -35,7 +35,7 @@
 
 }
 .form-control {
-    width: 100%;
+    width: 400px;
     border-radius: 10px;
     border: none;
 }
