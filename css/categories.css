@@ -1,0 +1,33 @@
+.categoryCards {
+  height: 100vh;
+  /* width: 100vh; */
+}
+
+.categoryCards .heading {
+  /* width: 100vw; */
+  font-weight: bold;
+  text-align: center;
+  font-size: 3em;
+  margin-top: 40px;
+}
+
+.categoryCards .subtitle {
+  margin: 40px auto;
+  width: 70vw;
+  text-align: justify;
+  line-height: 1.5em;
+}
+.categoryCards .cards{
+    display: flex;
+    
+}
+.categoryCards .cards .card{
+    width: 15em;
+    height: 10em;
+    /* border: 1px solid red; */
+    margin: 20px;
+
+    -webkit-box-shadow: -3px 3px 22px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: -3px 3px 22px 5px rgba(0,0,0,0.75);
+box-shadow: -3px 3px 22px 5px rgba(0,0,0,0.75);
+}

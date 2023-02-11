@@ -1,0 +1,9 @@
+section.infographic{
+    width: 100vw;
+    height: 100vh;
+}
+
+.infographic .infographicContainer{
+    height: 70%;
+    background-color: dodgerblue;
+}
