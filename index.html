@@ -167,7 +167,12 @@
     <div class="heroRight">
       <!-- <h2 class="heading">Frint Platform</h2> -->
       <div class="container">
-        <img src="/images/dashboard.png" class="preview" alt="Failed to load image">
+        <!-- <img src="/images/dashboard.png" class="preview" alt="Failed to load image"> -->
+        <video class="preview" controls poster="/images/dashboard.png">
+          <source
+            src="https://media.geeksforgeeks.org/wp-content/uploads/20200409094356/Placement100-_-GeeksforGeeks2.mp4"
+            type="video/mp4">
+        </video>
       </div>
     </div>
   </section>
@@ -190,7 +195,7 @@
     </div>
     <div class="aboutSection2">
       <h1 class="aboutHeader2">
-        See how <br> Frint helps 
+        See how <br> Frint helps
         <span class="aboutHeaderYou">You</span>
       </h1>
 
@@ -475,53 +480,40 @@
 
 
   <section id="contact">
-
     <h1 class="section-header">Contact</h1>
-
     <div class="contact-wrapper">
-
       <!-- Left contact page -->
-
       <form id="contact-form" class="form-horizontal" role="form">
-
         <div class="form-group">
           <div class="col-sm-12">
             <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
           </div>
         </div>
-
         <div class="form-group">
           <div class="col-sm-12">
             <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
           </div>
         </div>
-
-        <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
-
+        <div class="form-group">
+          <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+        </div>
+        
         <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
           <div class="alt-send-button">
             <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
           </div>
-
         </button>
-
       </form>
-
-
+  
       <div class="direct-contact-container">
-
         <ul class="contact-list">
           <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">City,
                 State</span></i></li>
-
-          <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a
-                  href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></i></li>
-
+          <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555"
+                  title="Give me a call">(212) 555-2368</a></span></i></li>
           <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#"
                   title="Send me an email">hitmeup@gmail.com</a></span></i></li>
-
         </ul>
-
         <hr>
         <ul class="social-media-list">
           <li><a href="#" target="_blank" class="contact-icon">
@@ -538,13 +530,9 @@
           </li>
         </ul>
         <hr>
-
         <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
-
       </div>
-
     </div>
-
   </section>
 
 
@@ -565,7 +553,6 @@
 </div> -->
 
 
-  </div>
 
   <!-- <div class="services-section">
     <h2 class="section-title" id="services">Our Services</h2>
@@ -652,7 +639,8 @@
             <div class="footer-logo">
               <a class="footer-logo-link" href="#">
                 <span class="hidden-link-text">LOGO</span>
-                <h1>LOGO</h1>
+                <!-- <h1>LOGO</h1> -->
+                <img class="footer-logo-size" src="/images/Frint.png" alt="LOGO">
               </a>
             </div>
             <div class="footer-menu">

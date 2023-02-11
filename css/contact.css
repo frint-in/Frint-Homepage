@@ -7,7 +7,7 @@
     margin: 0 auto;
     padding: 40px 0;
     font: 300 60px 'Oswald', sans-serif;
-    color: #fff;
+    color: dodgerblue;
     text-transform: uppercase;
     letter-spacing: 6px;
 }
@@ -27,28 +27,44 @@
     max-width: 400px;
     font-family: 'Lato';
     font-weight: 400;
+    align-items: center;
 }
+.form-group {
+    padding: 5px;
+    border-radius: 10px;
+
+}
+.form-control {
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+
 .form-control, textarea {
     max-width: 400px;
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     letter-spacing: 1px;
+    padding: 10px;
 }
 .send-button {
-    margin-top: 15px;
-    height: 34px;
-    width: 400px;
+    margin-top: 10px;
+    height: 40px;
+    width: 100px;
+    display: block;
+    margin: auto;
     overflow: hidden;
     transition: all 0.2s ease-in-out;
 }
 .alt-send-button {
-    width: 400px;
-    height: 34px;
-    transition: all 0.2s ease-in-out;
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    transition: all 0.3s ease-in-out;
 }
 .send-text {
     display: block;
-    margin-top: 10px;
+    margin-top: 15px;
     font: 700 12px 'Lato', sans-serif;
     letter-spacing: 2px;
 }
