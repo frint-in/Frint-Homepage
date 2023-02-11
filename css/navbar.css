@@ -38,7 +38,7 @@
 }
 
 .nav .login button:hover{
-  background-color: #00f2bd;
+  background-color: rgba(85, 157, 230, 0.603);
   color: #212121;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .nav .login .loginBtn a:hover{
-  color: rgb(192, 181, 181);
+  color: rgb(226, 217, 217);
 }
 
 .nav .login .registerBtn{
@@ -147,7 +147,7 @@ width: 70px;
 height: 70px;
 background: var(--nav-icon);
 border-radius: 50%;
-border: 6px solid #f2f2f2;
+border: 6px solid  var(--main-color);
 transition: 0.5s;
 }
 .indicator::before{
@@ -159,7 +159,7 @@ width: 20px;
 height: 20px;
 background: transparent;
 border-top-right-radius: 20px;
-box-shadow: 1px -10px 0 0 #f2f2f2;
+box-shadow: 1px -10px 0 0 var(--main-color);
 }
 .indicator::after{
     content: '';
@@ -170,7 +170,7 @@ width: 20px;
 height: 20px;
 background: transparent;
 border-top-left-radius: 20px;
-box-shadow: -1px -10px 0 0 #f2f2f2;
+box-shadow: -1px -10px 0 0 var(--main-color);
 }
 
 

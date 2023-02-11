@@ -1,43 +1,41 @@
-function customPopup() {
+const clickBtn = document.getElementById("clickBtn");
+const popup = document.getElementById("popup");
+const closeBtn = document.getElementById("closeBtn");
 
-    let $btnShowPopup = $('.js-open-popup');
-    let $btnClosePopup = $('.js-close-popup');
-    let $popup1 = $('.js-custom-popup-login');
-    let $popup2 = $('.js-custom-popup-register');
-    let $popup3 = $('.js-custom-popup-primary');
 
-    $btnShowPopup.on('click', function () {
+clickBtn.addEventListener('click', ()=>{
+    popup.style.display = 'block';
+});
+closeBtn.addEventListener('click', ()=>{
+    popup.style.display = 'none';
+});
+popup.addEventListener('click', ()=>{
+    popup.style.display = 'none';
+});
 
-        let targetPopup = $(this).attr('data-target');
-        $("[data-popup=" + targetPopup + "]").addClass('is-active');
 
-    });
 
-    $btnClosePopup.on('click', function () {
-        $(this).parents('.is-active').removeClass('is-active');
-    });
 
-    $popup1.on('click', function (event) {
-        if (!$(event.target).closest('.js-custom-popup-holder').length && !$(event.target).is('js-custom-popup-login')) {
-            if ($popup1.hasClass('is-active')) {
-                $popup1.removeClass('is-active');
-            }
-        }
-    });
-    $popup2.on('click', function (event) {
-        if (!$(event.target).closest('.js-custom-popup-holder').length && !$(event.target).is('js-custom-popup-register')) {
-            if ($popup2.hasClass('is-active')) {
-                $popup2.removeClass('is-active');
-            }
-        }
-    });
-    $popup3.on('click', function (event) {
-        if (!$(event.target).closest('.js-custom-popup-holder').length && !$(event.target).is('js-custom-popup-primary')) {
-            if ($popup3.hasClass('is-active')) {
-                $popup3.removeClass('is-active');
-            }
-        }
-    });
 
-}
-customPopup();
+const clickBtn2 = document.getElementById("clickBtn2");
+const popup2 = document.getElementById("popup2");
+const closeBtn2 = document.getElementById("closeBtn2");
+const popupContainer = document.getElementById('popupContainer')
+
+clickBtn2.addEventListener('click', ()=>{
+    popup2.style.display = 'block';
+    popupContainer.style.display = 'flex'
+});
+popup2.addEventListener('click', ()=>{
+    popup2.style.display = 'none';
+});
+closeBtn2.addEventListener('click', ()=>{
+    popup2.style.display = 'none';
+});
+
+
+const clickBtn3 = document.getElementById("clickBtn3");
+
+clickBtn3.addEventListener('click', ()=>{
+    popup.style.display = 'block';
+});

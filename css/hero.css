@@ -22,12 +22,20 @@
     font-size: 3em;
     line-height: 1.3em;
 }
+
+.hero .heroLeft .btns{
+    display: flex;
+}
+
 .hero .heroLeft .btns .btn{
     margin: 20px;
 }
 
 .hero .heroRight{
-    flex: 1;
+    flex: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero .heroRight .heading{
@@ -37,8 +45,8 @@
 
 .hero .heroRight .container{
     background-color: rgb(216,206,241);
-    height: 25em;
-    width: 25em;
+    height: 35em;
+    width: 35em;
     border-radius: 50%;
     margin: 20px auto;
     display: flex;
@@ -47,8 +55,8 @@
 }
 
 .hero .heroRight .container .preview{
-    width: 35em;
-    height: 20em;
+    width: 45em;
+    height: 25em;
     border-radius: 4px;
 }
 

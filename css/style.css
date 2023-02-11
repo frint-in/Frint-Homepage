@@ -17,6 +17,17 @@ body {
   color: var(--clr);
 }
 
+.primaryDiv button{
+  width: 12em;
+  height: 3em;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  background-color: var(--nav-icon);
+  color: #fff;
+  cursor: pointer;
+}
+
 button.primary {
   width: 12em;
   height: 3em;
@@ -38,8 +49,8 @@ button.primary:hover{
 
 button.secondary {
   width: 12em;
-  height: 3em;
-  border-radius: 5px;
+  height: 3em; 
+  border-radius: 20px;
   font-weight: bold;
   background-color: var(--main-color);
   cursor: pointer;
