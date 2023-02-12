@@ -1,5 +1,8 @@
+
 .testimonialContainer {
 	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
  .testimonials figure.snip1192 {
