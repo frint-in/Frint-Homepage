@@ -1,18 +1,32 @@
-const cardOne = document.getElementById("cardOne");
-const cardTwo = document.querySelector("#cardTwo");
-const cardThree = document.querySelector("#cardThree");
+(function () {
+  "use strict";
 
-const removeActive = () => {
-  cardTwo.classList.remove("active");
-}
+  var carousels = function () {
+    $(".owl-carousel1").owlCarousel({
+      loop: true,
+      center: true,
+      margin: 0,
+      responsiveClass: true,
+      nav: false,
+      responsive: {
+        0: {
+          items: 1,
+          nav: false,
+        },
+        680: {
+          items: 2,
+          nav: false,
+          loop: false,
+        },
+        1000: {
+          items: 3,
+          nav: true,
+        },
+      },
+    });
+  };
 
-const addActive = () => {
-  cardTwo.classList.add("active");
-}
-
-cardOne.addEventListener('mouseover', removeActive);
-cardOne.addEventListener('mouseleave', addActive);
-cardThree.addEventListener('mouseover', removeActive);
-cardThree.addEventListener('mouseleave', addActive);
-
-
+  (function ($) {
+    carousels();
+  })(jQuery);
+})();

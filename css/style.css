@@ -66,6 +66,16 @@ button.secondary a{
     color: black;
 }
 
+button.tertiary{
+  /* background-color: var(--main-color); */
+  background-color: #fff;
+  color: dodgerblue;
+  border-radius: 5px;
+  height: 50px;
+  width: 130px;
+  border: none;
+}
+
 #partners{
   margin-top: 50px;
   margin-bottom: 400px;
